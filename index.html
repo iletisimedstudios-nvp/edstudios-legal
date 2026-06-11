@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <title>Namaz Vakti Pro Gizlilik Politikası</title>
+  <style>
+    :root {
+      --bg: #071328;
+      --bg-soft: #0d1b34;
+      --card: rgba(17, 29, 52, 0.9);
+      --text: #f4f8ff;
+      --muted: #b3c2dd;
+      --line: rgba(117, 143, 186, 0.24);
+      --accent: #5ce1d8;
+      --accent-soft: rgba(92, 225, 216, 0.14);
+      --warm: #ffbf69;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      background:
+        radial-gradient(circle at top, rgba(92, 225, 216, 0.08), transparent 38%),
+        linear-gradient(180deg, var(--bg-soft), var(--bg));
+      color: var(--text);
+      font-family: "Segoe UI", "Inter", Arial, sans-serif;
+      line-height: 1.65;
+    }
+
+    body {
+      padding: 24px 16px 56px;
+    }
+
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .hero,
+    .section {
+      border: 1px solid var(--line);
+      background: var(--card);
+      box-shadow: 0 22px 48px rgba(0, 0, 0, 0.18);
+    }
+
+    .hero {
+      padding: 30px 24px;
+      border-radius: 24px;
+      background: linear-gradient(180deg, rgba(16, 28, 52, 0.96), rgba(10, 19, 38, 0.94));
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 14px 0 8px;
+      font-size: clamp(30px, 5vw, 42px);
+      line-height: 1.16;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 21px;
+      color: var(--text);
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .hero p,
+    .meta,
+    .section p,
+    .section li {
+      color: var(--muted);
+    }
+
+    .meta {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .section {
+      margin-top: 16px;
+      padding: 22px;
+      border-radius: 22px;
+    }
+
+    .note {
+      margin-top: 16px;
+      padding: 14px 16px;
+      border-left: 4px solid var(--warm);
+      border-radius: 14px;
+      background: rgba(255, 191, 105, 0.08);
+      color: var(--muted);
+    }
+
+    .strong {
+      color: var(--text);
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <span class="eyebrow">Namaz Vakti Pro</span>
+      <h1>Gizlilik Politikası</h1>
+      <p>
+        Bu politika, Namaz Vakti Pro mobil uygulamasını kullanırken hangi verilerin
+        işlenebileceğini, bu verilerin hangi amaçlarla kullanılabileceğini ve
+        kullanıcıların hangi kontrollere sahip olduğunu açıklar.
+      </p>
+      <div class="meta">Son güncelleme: 8 Haziran 2026</div>
+      <div class="meta">Geliştirici: E&amp;D Studios</div>
+      <div class="meta">İletişim: <a href="mailto:iletisim.namazvaktipr@gmail.com">iletisim.namazvaktipr@gmail.com</a></div>
+    </section>
+
+    <section class="section">
+      <h2>1. Toplanan ve İşlenen Veriler</h2>
+      <p>Uygulamanın kullanılan özelliklerine bağlı olarak aşağıdaki veri türleri işlenebilir:</p>
+      <ul>
+        <li><span class="strong">Konum verisi:</span> Namaz vakitlerini, kıble yönünü ve yakındaki camileri hesaplamak için kullanılır.</li>
+        <li><span class="strong">Hesap ve profil verisi:</span> Supabase üzerinden e-posta, profil adı ve oturum bilgileri işlenebilir.</li>
+        <li><span class="strong">Profil görseli:</span> Kullanıcı profil fotoğrafı seçerse dosya uygulama cihaz alanında saklanabilir.</li>
+        <li><span class="strong">Uygulama tercihleri:</span> Bildirim ayarları, hatırlatma süresi, titreşim tercihi, meal tercihi, manuel şehir, yazı boyutu ve benzeri ayarlar saklanabilir.</li>
+        <li><span class="strong">Bildirim ve alarm tercihleri:</span> Namaz vakti bildirimleri, ezan hatırlatıcıları ve kullanıcının kurduğu tekil alarmlar için kullanılır.</li>
+        <li><span class="strong">Operasyonel bildirim verileri:</span> Yetkili kullanıcılar için Firebase cihaz bildirimi tokenı, zaman dilimi ve güncelleme zamanı işlenebilir.</li>
+        <li><span class="strong">Topluluk dua verileri:</span> Kullanıcının gönderdiği dua metinleri, moderasyon ve güvenlik amacıyla işlenebilir.</li>
+        <li><span class="strong">Tanılama ve kullanım verileri:</span> Çökme raporları, performans ve temel uygulama etkileşimleri hizmet kalitesini iyileştirmek için işlenebilir.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>2. Verilerin Kullanım Amaçları</h2>
+      <ul>
+        <li>Doğru şehir ve namaz vakti bilgisini göstermek.</li>
+        <li>Kıble yönünü ve yakındaki camileri hesaplamak.</li>
+        <li>Ezan, hatırlatıcı ve tekil alarm bildirimlerini zamanlamak.</li>
+        <li>Kur'an, kütüphane, dua ve medya özelliklerini çalıştırmak.</li>
+        <li>Hesap, profil ve uygulama tercihlerini yönetmek.</li>
+        <li>Topluluk güvenliği için dua içeriklerini moderasyon sürecinden geçirmek.</li>
+        <li>Çökme ve performans sorunlarını tespit ederek uygulama kararlılığını iyileştirmek.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>3. Konum Verisi</h2>
+      <p>
+        Konum izni verildiğinde uygulama, bulunduğunuz yere göre namaz vakitlerini,
+        kıble yönünü ve yakındaki camileri gösterebilir. Konum izni verilmezse
+        bazı özellikler sınırlı çalışabilir; kullanıcı manuel şehir seçimini tercih edebilir.
+      </p>
+      <p>
+        Konum verisi reklam takibi veya kullanıcı profili oluşturma amacıyla kullanılmaz.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>4. Bildirimler ve Kesin Alarm İzni</h2>
+      <p>
+        Namaz Vakti Pro, zaman hassasiyeti olan ibadet bildirimlerini doğru zamanda
+        gösterebilmek için Android bildirim ve alarm altyapısını kullanabilir.
+      </p>
+      <ul>
+        <li>Namaz vakti bildirimleri.</li>
+        <li>Ezan ve vakit hatırlatıcıları.</li>
+        <li>Kullanıcının seçtiği tekil alarm ve hatırlatıcılar.</li>
+      </ul>
+      <div class="note">
+        Kesin alarm izni; reklam, davranış takibi veya arka plan kullanıcı profili çıkarımı için kullanılmaz.
+        Bu izin yalnızca zamanında bildirim göstermek amacıyla kullanılır.
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>5. Topluluk Dua Özelliği ve Moderasyon</h2>
+      <p>
+        Dua gönderme ve topluluk duası özelliklerinde kullanıcı tarafından girilen içerikler
+        moderasyon amacıyla kontrol edilebilir. Güvenlik ve kötüye kullanımı önleme amacıyla
+        device_id, IP hash, user-agent, şikayet ve engelleme kayıtları işlenebilir.
+      </p>
+      <p>
+        Uygunsuz içeriklerin sınırlandırılması ve topluluk güvenliği için bazı içerikler
+        onay bekleyen durumda tutulabilir veya kaldırılabilir.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>6. Üçüncü Taraf Servisler</h2>
+      <p>Uygulamanın çalışması için aşağıdaki hizmetlerden yararlanılabilir:</p>
+      <ul>
+        <li><span class="strong">Supabase:</span> Kimlik doğrulama, profil, dua verileri ve bazı içerik bağlantıları için.</li>
+        <li><span class="strong">Firebase Analytics:</span> Temel uygulama etkileşimleri ve hizmet kalitesini izlemek için.</li>
+        <li><span class="strong">Firebase Crashlytics:</span> Çökme ve kararlılık sorunlarını analiz etmek için.</li>
+        <li><span class="strong">Firebase Messaging:</span> Yetkili kullanıcılara operasyonel bildirim altyapısı sağlamak için.</li>
+        <li><span class="strong">Sentry:</span> Etkinleştirildiği durumda runtime hata raporlaması için.</li>
+        <li><span class="strong">Harita ve medya sağlayıcıları:</span> Harita, yönlendirme, canlı yayın veya medya içerikleri için.</li>
+      </ul>
+      <p>
+        Kullanıcı verileri satılmaz, kiralanmaz veya reklam amacıyla üçüncü taraflara devredilmez.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>7. Veri Saklama ve Silme</h2>
+      <ul>
+        <li>Cihaz içi tercihler, kullanıcı uygulamayı kullanmaya devam ettiği sürece cihazda tutulabilir.</li>
+        <li>Hesap ve profil verileri, kullanıcı hesabı aktif olduğu sürece işlenebilir.</li>
+        <li>Moderasyon logları ve güvenlik kayıtları en fazla 12 ay tutulur; süre sonunda anonimleştirilir veya silinir.</li>
+        <li>Yasal zorunluluk bulunmadıkça gereksiz veriler aktif sistemde tutulmaz.</li>
+      </ul>
+      <p>
+        Hesabınızı ve hesabınıza bağlı verileri silme seçenekleri için
+        <a href="https://denizmrt.github.io/edstudios-legal/account-deletion.html">
+          Hesap Silme Talebi
+        </a>
+        sayfasını kullanabilirsiniz.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>8. Veri Güvenliği</h2>
+      <p>
+        Uygulama ile uzak servisler arasındaki veri aktarımı HTTPS/TLS ile şifrelenir.
+        Verilerin yetkisiz erişim, kayıp veya kötüye kullanım riskine karşı korunması için
+        makul teknik ve idari önlemler uygulanır. Bununla birlikte internet üzerinden iletim
+        veya elektronik depolamanın mutlak güvenliği garanti edilemez.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>9. Çocukların Gizliliği</h2>
+      <p>
+        Namaz Vakti Pro genel kullanıcı kitlesine yönelik bir uygulamadır ve bilerek
+        13 yaş altındaki çocuklardan kişisel veri toplamayı hedeflemez. Böyle bir durumun
+        fark edilmesi halinde ilgili verilerin silinmesi için bizimle iletişime geçilebilir.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>10. Kullanıcı Hakları</h2>
+      <p>Kullanıcılar yürürlükteki mevzuata tabi olarak aşağıdaki taleplerde bulunabilir:</p>
+      <ul>
+        <li>Kişisel verileri hakkında bilgi talep etme.</li>
+        <li>Eksik veya hatalı verilerin düzeltilmesini isteme.</li>
+        <li>Belirli durumlarda verilerin silinmesini veya anonimleştirilmesini talep etme.</li>
+        <li>Verilen izinleri cihaz ayarları veya uygulama ayarları üzerinden geri çekme.</li>
+        <li>Otomatik moderasyon kararlarına ilişkin inceleme talebi oluşturma.</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>11. Politika Değişiklikleri</h2>
+      <p>
+        Bu gizlilik politikası zaman zaman güncellenebilir. Güncel sürüm bu sayfada
+        yayımlandığı anda yürürlüğe girer.
+      </p>
+    </section>
+  </main>
+</body>
+</html>
